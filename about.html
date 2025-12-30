@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Apex Car Services</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- SEO & Open Graph -->
+    <meta property="og:title" content="About Us | Apex Car Services">
+    <meta property="og:description"
+        content="Learn about our passion for perfection in automotive care and customization.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1887">
+    <meta property="og:url" content="https://www.apexservice.com/about.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* Specific About Page Styles */
+        .about-section {
+            padding: 6rem 0;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-content p {
+            color: #cbd5e1;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .value-card {
+            background: var(--bg-secondary);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .value-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+
+            .about-grid,
+            .values-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="text-gradient">APEX</span> <span
+                        style="font-weight: 400; font-size: 1rem; color: #94a3b8; letter-spacing: 2px;">CAR
+                        SERVICES</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#services" class="dropbtn">Services <ion-icon
+                                name="chevron-down-outline"></ion-icon></a>
+                        <div class="dropdown-content">
+                            <a href="service/scratch.html">Scratch Removing</a>
+                            <a href="service/ppf.html">Paint Protection Film</a>
+                            <a href="service/vinyl.html">Vinyl Wraps</a>
+                            <a href="service/ceramic.html">Ceramic Coating</a>
+                            <a href="service/tinting.html">Window Tinting</a>
+                        </div>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="hours.html">Hours</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero"
+        style="background-image: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1493238792015-1a77d599cc40?q=80&w=2072&auto=format&fit=crop');">
+        <div class="container">
+            <h1>About <span class="text-gradient">Apex</span></h1>
+            <p style="margin-top: 1rem; color: #cbd5e1;">Driven by passion. Defined by quality. Perfection is our
+                standard.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="static/images/workshop.png" alt="Our Workshop"
+                        style="width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                </div>
+                <div class="about-content reveal">
+                    <h2>Our Story</h2>
+                    <p>Founded by automotive enthusiasts with a singular vision, Apex Car Services was established to
+                        bridge the gap between standard detailing and high-end automotive restoration. We realized that
+                        true car lovers demanded more than just a wash and wax; they needed a partner who understood the
+                        art of perfection.</p>
+                    <p>What started as a small garage operation has grown into a premier destination for automotive
+                        customization and protection. We have invested in state-of-the-art technology and training to
+                        ensure that every vehicle we touch receives world-class treatment.</p>
+                    <p>Our mission is simple: to protect and enhance the beauty of every car, ensuring it turns heads
+                        for years to come.</p>
+                </div>
+            </div>
+
+            <div class="values-grid reveal">
+                <div class="value-card">
+                    <div class="value-icon"><ion-icon name="diamond-outline"></ion-icon></div>
+                    <h3>Premium Quality</h3>
+                    <p style="color: #94a3b8; margin-top: 0.5rem;">We use only the finest materials from
+                        industry-leading brands like 3M, XPEL, and Gtechniq.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><ion-icon name="medal-outline"></ion-icon></div>
+                    <h3>Certified Experts</h3>
+                    <p style="color: #94a3b8; margin-top: 0.5rem;">Our technicians are fully certified and undergo
+                        rigorous ongoing training.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><ion-icon name="heart-outline"></ion-icon></div>
+                    <h3>Customer Focus</h3>
+                    <p style="color: #94a3b8; margin-top: 0.5rem;">We treat every vehicle as if it were our own,
+                        guaranteeing your complete satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">APEX</div>
+                    <p style="color: #64748b; margin-top: 1rem;">Precision automotive customization and protection
+                        services.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="service/scratch.html">Scratch Removing</a></li>
+                        <li><a href="service/ppf.html">Paint Protection Film</a></li>
+                        <li><a href="service/vinyl.html">Vinyl Wraps</a></li>
+                        <li><a href="service/ceramic.html">Ceramic Coating</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="hours.html">Hours</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul style="color: #94a3b8;">
+                        <li><ion-icon name="location-outline"
+                                style="vertical-align: middle; margin-right: 5px;"></ion-icon> 123 Main St, New York
+                        </li>
+                        <li><ion-icon name="call-outline" style="vertical-align: middle; margin-right: 5px;"></ion-icon>
+                            (555) 123-4567</li>
+                        <li><ion-icon name="time-outline" style="vertical-align: middle; margin-right: 5px;"></ion-icon>
+                            Mon-Fri: 9 AM - 5 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2024 Apex Car Services. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
